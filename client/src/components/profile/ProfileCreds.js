@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Moment from 'react-moment';
-import { SET_CURRENT_USER } from '../../actions/types';
 
 class ProfileCreds extends Component {
   render() {
