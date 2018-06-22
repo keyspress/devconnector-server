@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'props-types';
+import PropTypes from 'prop-types';
 import { deleteComment } from '../../actions/postActions';
 
 class CommentItem extends Component {
@@ -46,7 +46,7 @@ class CommentItem extends Component {
 CommentItem.propTypes = {
   deleteComment: PropTypes.func.isRequired,
   comment: PropTypes.object.isRequired,
-  postId: Proptypes.string.isRequired,
+  postId: PropTypes.string.isRequired,
   auth: PropTypes.object.isRequired
 };
 
